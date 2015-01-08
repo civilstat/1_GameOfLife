@@ -9,10 +9,12 @@ Task:
 Program input: create a text file whose 1st line is a single positive integer (the number of generations to advance) and whose remaining lines are a binary matrix with 1s at live cells and 0s at dead cells.
 For example:
 
+```
 2
 010
 111
 010
+```
 
 Run the program from the command line using Rscript,
 with your input file as a final argument:
