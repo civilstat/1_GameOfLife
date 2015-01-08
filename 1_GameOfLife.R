@@ -27,10 +27,21 @@ args <- commandArgs(trailingOnly = TRUE)
 
 # Check command line arguments:
 # should be just one, the name of the input text file
+print(args)
+inputfile <- args
 
 # Read in and check the contents of the text file
+ngen <- scan(inputfile, n=1)
+print(ngen)
+
+ncol <- nchar(scan(inputfile, what=character(), skip=1, n=1))
+
+G <- as.matrix(read.fwf(inputfile, skip=1, widths=rep(1,ncol)))
+print(G)
 
 # Loop over generations:
 # Count neighbors and update status
 
 # Write output to a text file
+write.table(G, "1_GameOfLife_Out.txt", sep="",
+            row.names=FALSE, col.names=FALSE)
