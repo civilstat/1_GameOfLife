@@ -1,7 +1,7 @@
 #####
 # Jerzy Wieczorek
 # 36-750 Statistical Computing
-# HW1: Game of Life
+# HW_0: Game of Life
 # 1/8/2015
 #
 # Program input: create a text file
@@ -18,9 +18,9 @@
 # 
 # Run the program from the command line using Rscript,
 # with your input file as a final argument:
-# > Rscript 1_GameOfLife.R myInputFile.txt
+# > Rscript 0_GameOfLife.R myInputFile.txt
 # 
-# Output will be written to 1_GameOfLife_Out.txt
+# Output will be written to 0_GameOfLife_Out.txt
 #####
 
 #####
@@ -110,5 +110,5 @@ cat(t(G), fill=ncol, sep="")
 
 #####
 # Write output to a text file
-write.table(G, "1_GameOfLife_Out.txt", sep="",
+write.table(G, "0_GameOfLife_Out.txt", sep="",
             row.names=FALSE, col.names=FALSE)

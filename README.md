@@ -1,5 +1,5 @@
-# 1_GameOfLife
-36-750 Stat Computing HW 1: Conway's Game Of Life
+﻿# HW_0
+36-750 Stat Computing HW_0: Conway's Game Of Life
 
 Task:
 * Your program should accept as input a text file giving an initial state G for the grid of cells and the number n of generations to simulate.
@@ -18,6 +18,6 @@ For example:
 
 Run the program from the command line using Rscript,
 with your input file as a final argument:
-> Rscript 1_GameOfLife.R myInputFile.txt
+> Rscript 0_GameOfLife.R myInputFile.txt
 
-Output will be written to 1_GameOfLife_Out.txt
+Output will be written to 0_GameOfLife_Out.txt
